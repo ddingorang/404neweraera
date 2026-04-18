@@ -1,0 +1,9 @@
+import sys
+
+n = []
+for _ in range(3):
+    x = int(sys.stdin.readline().rstrip())
+    n.append(x)
+
+print(n[0] + n[1] - n[2])
+print(int(str(n[0]) + str(n[1])) - n[2])
